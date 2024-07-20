@@ -1,6 +1,7 @@
-/* Sidebar.css */
+
 .sidebar {
     width: 250px;
+    height: 98vh;
     background-color: #009900;
     color: white;
     display: flex;
@@ -8,7 +9,8 @@
     justify-content: space-between;
     padding: 20px;
     flex-shrink: 0;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease;margin-top: -4%;
+
   }
   
   .logo {
@@ -25,6 +27,39 @@
     margin: 15px 0;
     font-size: 18px;
   }
+  .dashboard{
+    display: flex;
+    gap: 15px;
+  }
+  .farm{
+    display: flex;
+    gap: 15px;
+  }
+  .farmicon{
+    margin-top: 16px;
+
+  }
+  .analytics{
+    display: flex;
+    gap: 15px;
+
+  }
+  .analyticsicon{
+    margin-top: 16px; 
+
+  }
+  .dashboardicon{
+    margin-top: 16px;
+  }
+  .product{
+    display: flex;
+    gap: 15px;
+
+  }
+  .producticon{
+    margin-top: 16px;
+
+  }
   
   .settings-logout button {
     width: 100%;
@@ -33,6 +68,7 @@
     background-color: #006600;
     color: white;
     border: none;
+    margin-bottom: 30%;
     cursor: pointer;
   }
   
@@ -74,10 +110,11 @@
   
     .menu-button {
       display: block;
+      
     }
   
     .settings-logout {
-      display: none;
+     margin-bottom: 10%;
     }
   
     nav ul {
@@ -87,6 +124,13 @@
   
     nav li {
       margin: 10px 0;
+    }
+    button{
+      border: solid 2px;
+     
+    }
+    body{
+      width: 200px;
     }
   }
   
